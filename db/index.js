@@ -5,7 +5,7 @@ const app = express();
 const adminRoutes = require("./routes/admin");
 const userRoutes = require("./routes/user");
 
-mongoose.connect('mongodb+srv://826aryan:Bimmi%4019721968@cluster0.rxsod.mongodb.net/couse_selling_app');
+mongoose.connect('');
 app.use(express.json());
 
 // Routes
